@@ -1,6 +1,6 @@
 const { nextISSTimesForMyLocation } = require('./iss');
 
-fetchMyIp((error, ip) => {
+fetchMyIP((error, ip) => {
   if (error) {
     console.log(`It didn't work!`, error);
     return;
